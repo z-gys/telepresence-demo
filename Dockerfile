@@ -4,7 +4,7 @@ WORKDIR /opt/app
 
 EXPOSE 8080
 
-ENV PROFILE=production
+ENV PROFILE=cloud
 
 HEALTHCHECK \
         --interval=5s \
