@@ -31,3 +31,4 @@ build/
 
 ### VS Code ###
 .vscode/
+/provision/helm/*.tgz
