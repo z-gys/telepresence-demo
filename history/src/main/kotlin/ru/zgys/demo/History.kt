@@ -1,11 +1,13 @@
 package ru.zgys.demo
 
+import org.springframework.amqp.rabbit.annotation.EnableRabbit
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class HistoryApplication
+@EnableRabbit
+class History
 
 fun main(args: Array<String>) {
-	runApplication<HistoryApplication>(*args)
+	runApplication<History>(*args)
 }

@@ -31,7 +31,7 @@ usePasswordFile: false
 
 ## Create a database
 ## Default: the postgres user
-postgresDatabase: postgres
+postgresDatabase: chat
 
 ## Specify initdb arguments, e.g. --data-checksums
 ## ref: https://github.com/docker-library/docs/blob/master/postgres/content.md#postgres_initdb_args

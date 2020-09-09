@@ -1,0 +1,8 @@
+server:
+  port: 8101
+
+spring:
+  datasource:
+    password: postgres
+    username: postgres
+    url: jdbc:postgresql://localhost:5432/tp_chat

@@ -13,7 +13,7 @@ class WebsocketConfig: WebSocketMessageBrokerConfigurer {
     override fun configureMessageBroker(registry: MessageBrokerRegistry) {
         with (registry) {
             setApplicationDestinationPrefixes("/app")
-            enableStompBrokerRelay("/topic")
+            enableStompBrokerRelay("/topic/public")
                 .setRelayHost("localhost")
                 .setRelayPort(61613)
                 .setClientLogin("guest")
